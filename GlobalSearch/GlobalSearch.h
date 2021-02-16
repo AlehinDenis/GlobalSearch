@@ -4,21 +4,12 @@
 
 class GlobalSearch {
 public:
-  GlobalSearch(std::function<double(double)> _function, double _a, double _b, double _precision, double _r = 2) {
-    if (a > b)
-      throw "Error: a > b";
-    if (r <= 0)
-      throw "Error: r <= 1";
-    
-    function = _function;
-    a = _a;
-    b = _b;
-    r = _r;
-    precision = _precision;
-  }
+  GlobalSearch(std::function<double(double)> _function, double _a, double _b,
+    double _precision, double _r = 2);
 
   std::pair<double, double> GlobalSearchAlgorithm();
 
+  void printAnasysisVector();
 
 private:
   std::function<double(double)> function;
