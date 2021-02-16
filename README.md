@@ -1,1 +1,1 @@
-# header H1
+# Strongin's global search algorithm 
