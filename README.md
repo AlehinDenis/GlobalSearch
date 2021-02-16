@@ -4,7 +4,7 @@ y = x, [1,5]:<br/>
 Result: (1, 1)<br/><br/>
 
 y = sin(x), [1, 9]:<br/>
-![Graph 2](/Images/graph2.png)
+![Graph 2](/Images/graph2.png)<br/>
 Result: (4.713, -1)<br/><br/>
 
 y = sin(x)*x, [0, 20]:<br/>
