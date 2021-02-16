@@ -15,7 +15,7 @@ Result: (17.34, -17.31)<br/><br/>
 
 y = abs(abs(x - 1) - abs(x + 5) * x), [-10, 10]:<br/>
 ![Graph 4](/Images/graph4.png)<br/>
-Result: (0.1628, 0.003208)<br/><br/>
+Result: (0.1618, 0.002894)<br/><br/>
 
 Output of the program:<br/>
 ![Result](/Images/result.png)<br/>
