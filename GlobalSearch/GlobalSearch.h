@@ -5,7 +5,7 @@
 class GlobalSearch {
 public:
   GlobalSearch(std::function<double(double)> _function, double _a, double _b,
-    double _precision, double _r = 5);
+    double _precision, double _r = 3);
 
   std::pair<double, double> GlobalSearchAlgorithm();
 
