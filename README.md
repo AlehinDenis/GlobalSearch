@@ -1,5 +1,5 @@
 # Strongin's global search algorithm 
-In the tests listed below, r = 3<br/>
+In the tests listed below, r = 5<br/>
 
 y = x, [1,5]:<br/>
 ![Graph 1](/Images/graph1.png)<br/>
