@@ -1,7 +1,6 @@
 # Strongin's global search algorithm 
 In the tests listed below, precision of calculation = 0.01<br/>
-Let's compare a results with differend parameter r:<br/>
-
+Let's compare the results with different parameters r:<br/>
 y = x, [1,5],<br/>
 r = 3:<br/>
 ![Graph 1](/Images/Test1/graph1.png)<br/>
