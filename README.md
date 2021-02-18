@@ -6,7 +6,7 @@ Let's compare the results with different parameters r.
 ### r = 3
 The count of tests: 8<br/>
 Result: (1, 1)<br/>
-![Graph 1](/Images/Test1/graph1.png)<br/>
+![Graph 1](/Images/Test1/graph1.png)<br/><br/>
 
 ### r = 1.5
 The count of tests: 6<br/>
@@ -17,7 +17,7 @@ Result: (1, 1)<br/>
 ### r = 3
 The count of tests: 73<br/>
 Result: (4.713, -1)<br/>
-![Graph 2](/Images/Test1/graph2.png)<br/>
+![Graph 2](/Images/Test1/graph2.png)<br/><br/>
 
 ### r = 1.5
 The count of tests: 41<br/>
@@ -28,7 +28,7 @@ Result: (4.712, -1)<br/>
 ### r = 3
 The count of tests: 55<br/>
 Result: (17.34, -17.31)<br/>
-![Graph 3](/Images/Test1/graph3.png)<br/>
+![Graph 3](/Images/Test1/graph3.png)<br/><br/>
 
 ### r = 1.5
 The count of tests: 46<br/>
@@ -39,7 +39,7 @@ Result: (4.916, -4.814)<br/>
 ### r = 3
 The count of tests: 53<br/>
 Result: (0.1618, 0.002894)<br/>
-![Graph 4](/Images/Test1/graph4.png)<br/>
+![Graph 4](/Images/Test1/graph4.png)<br/><br/>
 
 ### r = 1.5
 The count of tests: 23<br/>
