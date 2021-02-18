@@ -28,7 +28,7 @@ int main() {
   std::cout << "Result: (" << result3.first << ", " << result3.second << ")";
   
   std::cout << "\n\ny = abs(abs(x - 1) - abs(x + 5) * x), [-10, 10]: \n";
-  GlobalSearch globalSearch4(f4, 0, 20, 0.01);
+  GlobalSearch globalSearch4(f4, -10, 10, 0.01);
   std::pair<double, double> result4 = globalSearch4.GlobalSearchAlgorithm();
   //globalSearch4.printAnasysisVector();
   std::cout << "Result: (" << result4.first << ", " << result4.second << ")" << std::endl;

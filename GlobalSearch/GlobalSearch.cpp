@@ -34,7 +34,6 @@ std::pair<double, double> GlobalSearch::GlobalSearchAlgorithm() {
     double newStudyX = (analysis[t].first + analysis[t - 1].first) / 2 -
       (analysis[t].second - analysis[t - 1].second) / (2 * m);
     analysis.push_back(std::make_pair(newStudyX, function(newStudyX)));
-    //std::cout << "(" << newStudyX << ", " << function(newStudyX) << ")" << std::endl;
     if (newStudyX < analysis[t - 1].first || newStudyX > analysis[t].first)
       throw("Error: New study out of range");
   } while (analysis[t].first - analysis[t - 1].first > precision);
@@ -46,7 +45,7 @@ std::pair<double, double> GlobalSearch::GlobalSearchAlgorithm() {
 
 void GlobalSearch::printAnasysisVector() {
   sortAnalysisVector();
-  std::cout << "The count of study: " << analysis.size() - 1 << std::endl;
+  std::cout << "The count of tests: " << analysis.size() - 1 << std::endl;
   for (int i = 0; i < analysis.size(); i++)
     std::cout << "(" << analysis[i].first << ", " << analysis[i].second << ")" << std::endl;
 }
